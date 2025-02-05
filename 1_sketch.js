@@ -26,10 +26,10 @@ function setup() {
   slider1 = createSlider(1, 1000, 100, 1); // Number of data to generate
   slider1.position(10, 10);
 
-  slider2 = createSlider(0.5, 100, 1, 0); // Width of data
+  slider2 = createSlider(0.5, 100, 1.5, 0); // Width of data
   slider2.position(10, 30);
 
-  slider3 = createSlider(0, 100, 20, 0); // % of outliers
+  slider3 = createSlider(0, 100, 0, 0); // % of outliers
   slider3.position(10, 50);
 }
 
