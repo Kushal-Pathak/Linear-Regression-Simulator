@@ -5,7 +5,7 @@ let epch = 0,
 let num_data, data_width, num_outliers;
 let slider1, slider2, slider3;
 function setup() {
-  createCanvas(DEFAULT_CANVAS_WIDTH, 700);
+  createCanvas(windowWidth, windowHeight);
   cx = width / 2;
   cy = height / 2;
   graph = new Graph2D(width / 2, 370, width - 10, width - 10, 10);
