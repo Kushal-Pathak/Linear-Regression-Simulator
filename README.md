@@ -3,3 +3,4 @@
 ## Generate your own data 
 ## Train your model
 ### Built using HTML and p5.js
+[Try Here](https://kushalpathak.com.np/Linear-Regression-Simulator/)
