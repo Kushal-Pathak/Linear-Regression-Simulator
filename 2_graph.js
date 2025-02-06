@@ -96,7 +96,7 @@ class Graph2D {
     fill(255, 65, 54);
     translate(this.pos.x, this.pos.y);
     for (let point of this.sigmaPoints) {
-      circle(point.x, point.y, DEFAULT_POINT_RADIUS);
+      circle(point.x, -point.y, DEFAULT_POINT_RADIUS);
     }
     pop();
   }
