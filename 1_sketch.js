@@ -56,7 +56,7 @@ function draw() {
     text(`Epochs: ${epoch}`, 250, 22);
     text(`Cost: ${round(cost, 3)}`, 250, 42);
     text(`Model: y = ${round(w, 3)}x + ${round(b, 3)}`, 250, 62);
-    graph.plotFunction((x) => -(w * x + b));
+    graph.plotFunction((x) => (w * x + b));
   }
 
   text(`LINEAR REGRESSION SIMULATOR`, width / 3.5, height - 50);
